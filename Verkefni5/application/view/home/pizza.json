@@ -1,0 +1,33 @@
+//JSON
+{
+	"Crust": "Original",
+	"Toppings": [
+	"Cheese",
+	"Pepperoni",
+	"Garlic"
+	]
+	"Status": "Cooking",
+	"Customer": {
+		"Name": "Eysteinn",
+		"Phone": 1234567
+	}
+	}
+
+}
+//XML
+<order>
+	<pizza>
+		<info>
+		<crust> Original </crust>
+		<topping> Cheese </topping>
+		<topping> Pepperoni </topping>
+		<topping> Garlic </topping>
+		
+		<status> Cooking </status>
+		<customer>
+		<name> Eysteinn </name>
+		<phone> 1234567 </phone>
+		</customer>
+		</info>
+	</pizza>
+</order>

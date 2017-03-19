@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #AA4639;
+}
+/*
+.logo {
+    width: 200px;
+    height: 200px;
+    margin: 20px 30px;
+}
+*/
+.navigation {
+    margin-left: 33px;
+}
+.navigation a {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #AA4639;
+    color: #454545;
+    background: transparent;
+}
+.navigation a:hover {
+    background: #454545;
+    color: #fff;
+}
+.container {
+    border: 1px solid #AA4639;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 33px;
+}
+.container a {
+    color: #D4766A;
+}
+.container table {
+    font-size: 11px;
+    margin-top: 20px;
+}
+.container table thead td {
+    background-color: #f5f5f5;
+    padding: 4px 10px;
+}
+.container table tbody td {
+    padding: 4px 10px;
+}
+.container .box {
+    border-top: 1px solid #AA4639;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+.container input {
+    background-color: #f5f5f5;
+    border: 0;
+    padding: 5px 10px;
+}
+.container input[type="submit"] {
+    background-color: #ccc;
+    cursor: pointer;
+}
+.container input[type="submit"]:hover {
+    background-color: #222;
+    color: #fff;
+}
+.container button {
+    background-color: #ccc;
+    border: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.container button:hover {
+    background-color: #222;
+    color: #fff;
+}
+.footer {
+    padding: 1em;
+    color: black;
+    background-color: white;
+    clear: left;
+    text-align: center;
+}
+.footer a {
+    color: black
+}
+
+table, th , td {
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        table tr:nth-child(odd) {
+            background-color: #f1f1f1;
+        }
+        table tr:nth-child(even) {
+            background-color: #ffffff;
+        }
